@@ -1,0 +1,40 @@
+*{
+    background-color: lightblue;
+}
+
+.website-logo{
+    height: 120px;
+    width: 160px;
+    margin-right: 150px;
+    margin-left: 12px;
+}
+
+.nav-tab{
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+    text-decoration: none;
+    font-family: "Bangers", cursive;
+    font-size: 30px;
+}
+
+#mission-header{
+    font-family: "Bangers", cursive;
+    font-size: 38px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.sentences{
+    text-align: center;
+    font-family: "Bangers", cursive;
+    text-decoration: wheat;
+    font-size: 30px;
+}
+
+#vision-statement-header{
+    font-family: "Bangers", cursive;
+    font-size: 38px;
+    text-align: center;
+    text-decoration: underline;
+}

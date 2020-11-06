@@ -1,0 +1,271 @@
+*{
+    margin: 0px; 
+    padding: 0px;
+    max-width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth; 
+}
+
+body{
+    font-family: 'Vesper Libre', serif;
+    color: rgb(207, 19, 107);
+}
+
+header{
+    width: 100vw;
+    height: 100vh
+}
+
+nav{
+    width: 90%;
+    margin: 10px auto;
+    text-align: right;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(207, 19, 107);
+    font-size: 20px;
+    margin: 0px 10px;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover{
+        text-decoration: underline;
+}
+
+.strapline-container{
+    border: 2px solid rgb(207, 19, 107);
+    width: 90%;
+    height: 85%;
+    margin: auto auto;
+    text-align: center;
+    background-image: url(./donutswebsite/images/donuts1.webp)
+    /*background-size: cover;
+    background-position: center; */
+}
+
+.main-strapline{
+    color: rgb(207, 19, 107);
+    font-size: 120px;
+    text-transform: uppercase;
+    margin: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.second-strapline{
+        color: #ffffdd;
+        font-size: 35px;
+        font-style: italic;
+}
+
+.section-title{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(207, 19, 107);
+    font-size: 240%
+    /*margin-bottom: 25px;*/
+}
+
+.section-title{
+       margin-bottom: 25px; 
+}
+
+.about-section{
+        width: 100vw;
+        height: 90vh;
+}
+
+.about-container{
+    width: 85%;
+    margin: 0px auto;
+    flex-direction: row;
+    display: flex;
+}
+
+.left-box{
+    width: 45%;
+    text-align: justify;
+    line-height: 220%;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+}
+
+.right-box{
+    margin-left: 6%;
+    width: 45%;
+}
+
+.grid-image-one {
+    width: 50%;
+    height: 240px;
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-two {
+    width: 50%;
+    height: 240px;
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-three {
+    width: 50%;
+    height: 240px;
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.grid-image-four {
+    width: 50%;
+    height: 240px;
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-row, .bottom-row{
+        display: flex;
+        flex-direction: row;
+}
+
+.donuts-section{
+        width: 100vw;
+}
+
+.image-container{
+        width: 100%;
+}
+
+.row-one, .row-two, .row-three{
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-item{
+        width: 30%;
+        height: 310px;
+        margin: 15px;
+}
+
+.grid-item:hover{
+    opacity: 0.8%;
+}
+
+#donut-one {
+     background-image: url(./donutswebsite/images/donuts1.webp);
+     background-size: cover;
+     background-position: center;
+}
+
+#donut-two {
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#donut-three {
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#donut-four {
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#donut-five {
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#donut-six {
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#donut-seven {
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#donut-eight {
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#donut-nine {
+    background-image: url(./donutswebsite/images/donuts1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+.stores-section{
+    width: 100vw;
+}
+
+.stores-container{
+        width: 90%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+}
+
+.store-div{
+    width: 30%;
+    height: 240px;
+    margin: 20px;
+    text-align: center;
+}
+
+h4 {
+    font-size: 140%;
+}
+
+.contact-section{
+    width: 100vw;
+    height: 50vw;
+    background-color: rgb(207, 19, 107);
+    text-align: center;
+    color: #ffffdd;
+}
+
+.contact-title{
+        margin: 25px 0;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-transform: upercas;
+        font-size: 250%;
+}
+
+.contact-paragraph{
+        font-size: 130%;
+}
+
+.social-media-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+.social-media-icon{
+    margin: 0px 0.75px;
+}
